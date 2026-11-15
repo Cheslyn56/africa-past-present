@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="tri" width="24" height="16" patternUnits="userSpaceOnUse">
+      <path d="M0 16L12 0l12 16z" fill="#c4361a"/>
+    </pattern>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="4" fill="#ffe27a"/>
+    </pattern>
+  </defs>
+
+  <!-- TILE 1: yellow with teal mask -->
+  <g>
+    <rect x="0" y="0" width="240" height="240" fill="#ffe27a"/>
+    <rect x="0" y="0" width="240" height="16" fill="url(#tri)"/>
+    <rect x="0" y="224" width="240" height="16" fill="url(#tri)" transform="rotate(180 120 232)"/>
+    <ellipse cx="120" cy="124" rx="52" ry="78" fill="#2a9d9a" stroke="#2f1307" stroke-width="5"/>
+    <path d="M120 52l16 22-16 22-16-22z" fill="#f0771f" stroke="#2f1307" stroke-width="3"/>
+    <path d="M84 108q16-14 32 0M124 108q16-14 32 0" fill="none" stroke="#2f1307" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="100" cy="112" rx="8" ry="4" fill="#2f1307"/>
+    <ellipse cx="140" cy="112" rx="8" ry="4" fill="#2f1307"/>
+    <path d="M120 112v40l-9 4" fill="none" stroke="#2f1307" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="102" y="170" width="36" height="14" rx="7" fill="#c4361a" stroke="#2f1307" stroke-width="3"/>
+    <path d="M78 138l14 10M78 150l14 6M162 138l-14 10M162 150l-14 6" stroke="#ffe27a" stroke-width="4" stroke-linecap="round"/>
+    <g fill="#f0771f" stroke="#2f1307" stroke-width="2"><path d="M30 60l12 14-12 14-12-14z"/><path d="M210 60l12 14-12 14-12-14z"/><path d="M30 156l12 14-12 14-12-14z"/><path d="M210 156l12 14-12 14-12-14z"/></g>
+  </g>
+
+  <!-- TILE 2: kente weave -->
+  <g transform="translate(240 0)">
+    <rect width="240" height="240" fill="#2f1307"/>
+    <g>
+      <rect x="0" y="0" width="30" height="240" fill="#f0771f"/>
+      <rect x="30" y="0" width="14" height="240" fill="#ffe27a"/>
+      <rect x="44" y="0" width="30" height="240" fill="#2a9d9a"/>
+      <rect x="74" y="0" width="14" height="240" fill="#c4361a"/>
+      <rect x="88" y="0" width="30" height="240" fill="#f0771f"/>
+      <rect x="118" y="0" width="14" height="240" fill="#ffe27a"/>
+      <rect x="132" y="0" width="30" height="240" fill="#6b3fa0"/>
+      <rect x="162" y="0" width="14" height="240" fill="#c4361a"/>
+      <rect x="176" y="0" width="30" height="240" fill="#2a9d9a"/>
+      <rect x="206" y="0" width="34" height="240" fill="#ffe27a"/>
+    </g>
+    <g fill="#2f1307" opacity=".85">
+      <rect x="0" y="30" width="240" height="22"/><rect x="0" y="100" width="240" height="22"/><rect x="0" y="170" width="240" height="22"/>
+    </g>
+    <g fill="#ffe27a">
+      <rect x="10" y="36" width="16" height="10"/><rect x="58" y="36" width="16" height="10"/><rect x="106" y="36" width="16" height="10"/><rect x="154" y="36" width="16" height="10"/><rect x="202" y="36" width="16" height="10"/>
+      <rect x="34" y="106" width="16" height="10"/><rect x="82" y="106" width="16" height="10"/><rect x="130" y="106" width="16" height="10"/><rect x="178" y="106" width="16" height="10"/>
+      <rect x="10" y="176" width="16" height="10"/><rect x="58" y="176" width="16" height="10"/><rect x="106" y="176" width="16" height="10"/><rect x="154" y="176" width="16" height="10"/><rect x="202" y="176" width="16" height="10"/>
+    </g>
+  </g>
+
+  <!-- TILE 3: radiant sun on purple -->
+  <g transform="translate(480 0)">
+    <rect width="240" height="240" fill="#6b3fa0"/>
+    <rect width="240" height="240" fill="url(#dots)" opacity=".18"/>
+    <g transform="translate(120 120)">
+      <g fill="#ffe27a">
+        <path id="ray" d="M-8 -112L0 -88 8 -112z"/>
+        <use href="#ray" transform="rotate(22.5)"/><use href="#ray" transform="rotate(45)"/><use href="#ray" transform="rotate(67.5)"/>
+        <use href="#ray" transform="rotate(90)"/><use href="#ray" transform="rotate(112.5)"/><use href="#ray" transform="rotate(135)"/><use href="#ray" transform="rotate(157.5)"/>
+        <use href="#ray" transform="rotate(180)"/><use href="#ray" transform="rotate(202.5)"/><use href="#ray" transform="rotate(225)"/><use href="#ray" transform="rotate(247.5)"/>
+        <use href="#ray" transform="rotate(270)"/><use href="#ray" transform="rotate(292.5)"/><use href="#ray" transform="rotate(315)"/><use href="#ray" transform="rotate(337.5)"/>
+      </g>
+      <circle r="78" fill="#f0771f"/>
+      <circle r="62" fill="none" stroke="#ffe27a" stroke-width="6" stroke-dasharray="4 10" stroke-linecap="round"/>
+      <circle r="46" fill="#c4361a"/>
+      <circle r="34" fill="none" stroke="#ffe27a" stroke-width="5"/>
+      <circle r="20" fill="#2a9d9a"/>
+      <circle r="8" fill="#ffe27a"/>
+    </g>
+  </g>
+
+  <!-- TILE 4: zigzag diamonds on cream -->
+  <g transform="translate(720 0)">
+    <rect width="240" height="240" fill="#fdf1dc"/>
+    <g fill="none" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 30l20-18 20 18 20-18 20 18 20-18 20 18 20-18 20 18 20-18 20 18 20-18" stroke="#c4361a"/>
+      <path d="M0 210l20-18 20 18 20-18 20 18 20-18 20 18 20-18 20 18 20-18 20 18 20-18" stroke="#c4361a"/>
+    </g>
+    <g stroke="#2f1307" stroke-width="3">
+      <path d="M120 50l56 70-56 70-56-70z" fill="#f0771f"/>
+      <path d="M120 78l34 42-34 42-34-42z" fill="#ffe27a"/>
+      <path d="M120 100l16 20-16 20-16-20z" fill="#2a9d9a"/>
+    </g>
+    <g fill="#6b3fa0"><circle cx="30" cy="120" r="9"/><circle cx="210" cy="120" r="9"/><circle cx="30" cy="84" r="5"/><circle cx="210" cy="84" r="5"/><circle cx="30" cy="156" r="5"/><circle cx="210" cy="156" r="5"/></g>
+  </g>
+
+  <!-- TILE 5: teal with orange mask -->
+  <g transform="translate(960 0)">
+    <rect width="240" height="240" fill="#2a9d9a"/>
+    <rect x="0" y="0" width="240" height="16" fill="#ffe27a" opacity=".9"/>
+    <rect x="0" y="224" width="240" height="16" fill="#ffe27a" opacity=".9"/>
+    <path d="M120 40c44 0 62 36 52 84-8 38-30 72-52 76-22-4-44-38-52-76-10-48 8-84 52-84z" fill="#f0771f" stroke="#2f1307" stroke-width="5"/>
+    <path d="M70 90h100" stroke="#2f1307" stroke-width="5"/>
+    <path d="M120 58v32" stroke="#2f1307" stroke-width="5"/>
+    <g fill="#ffe27a" stroke="#2f1307" stroke-width="3"><path d="M84 112q14-12 28 0q-14 10-28 0z"/><path d="M128 112q14-12 28 0q-14 10-28 0z"/></g>
+    <circle cx="98" cy="112" r="4" fill="#2f1307"/><circle cx="142" cy="112" r="4" fill="#2f1307"/>
+    <path d="M120 116v34l-8 4" fill="none" stroke="#2f1307" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M100 176q20 12 40 0" fill="none" stroke="#c4361a" stroke-width="8" stroke-linecap="round"/>
+    <g fill="#c4361a" stroke="#2f1307" stroke-width="2"><path d="M86 140l16 8-16 8z"/><path d="M154 140l-16 8 16 8z"/></g>
+    <g fill="#ffe27a"><circle cx="40" cy="60" r="6"/><circle cx="200" cy="60" r="6"/><circle cx="40" cy="180" r="6"/><circle cx="200" cy="180" r="6"/></g>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <rect width="240" height="240" fill="#240d04"/>
+  <g fill="none" stroke="#ffb067" stroke-opacity=".12" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- zigzag bands -->
+    <path d="M0 24l15-14 15 14 15-14 15 14 15-14 15 14 15-14 15 14 15-14 15 14 15-14 15 14 15-14"/>
+    <path d="M0 40l15-14 15 14 15-14 15 14 15-14 15 14 15-14 15 14 15-14 15 14 15-14 15 14 15-14"/>
+    <!-- nested diamond -->
+    <path d="M120 70l40 40-40 40-40-40z"/>
+    <path d="M120 86l24 24-24 24-24-24z"/>
+    <path d="M120 102l8 8-8 8-8-8z"/>
+    <!-- crosses -->
+    <path d="M30 100v28M16 114h28"/>
+    <path d="M210 100v28M196 114h28"/>
+    <!-- dashes -->
+    <path d="M0 176h240" stroke-dasharray="14 10"/>
+    <path d="M0 188h240" stroke-dasharray="4 8"/>
+    <path d="M0 200h240" stroke-dasharray="14 10"/>
+  </g>
+  <g fill="#ffb067" fill-opacity=".12">
+    <circle cx="40" cy="220" r="5"/><circle cx="80" cy="220" r="5"/><circle cx="120" cy="220" r="5"/><circle cx="160" cy="220" r="5"/><circle cx="200" cy="220" r="5"/>
+    <circle cx="60" cy="60" r="4"/><circle cx="180" cy="60" r="4"/>
+  </g>
+</svg>
